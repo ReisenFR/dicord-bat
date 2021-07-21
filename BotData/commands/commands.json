@@ -1,0 +1,825 @@
+{
+  "command": [
+    {
+      "name": "help",
+      "actions": [
+        {
+          "name": "help menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": " Terminal H.A.D.E.S ",
+          "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/864591849167781928/kisspng-command-line-interface-computer-icons-cmd-exe-logo-amp-quot-command-and-conquer-amp-quo-5b6e.png",
+          "authorlink": "",
+          "description": "\n**__Information__** \n`+info`\n\n**__Fun__**\n`+funmenu`\n`+music`\n\n**__Utility bot__**\n`+botmenu`\n\n**__Moderation__**\n`+modhelp` - sends the moderation help menu\n",
+          "thumbnail": "https://cdn.discordapp.com/attachments/711898431395987577/864591216973054032/4370527eea6efbcd9a7977d93a76ac27.gif",
+          "image": "https://cdn.discordapp.com/attachments/711898431395987577/864594401032273930/335f6d0c74c29626008bae58feb98808.gif",
+          "footer": "H.A.D.E.S Corporation ",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "actions": [
+        {
+          "name": "Show Info",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": "Terminal H.A.D.E.S",
+          "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/864591849167781928/kisspng-command-line-interface-computer-icons-cmd-exe-logo-amp-quot-command-and-conquer-amp-quo-5b6e.png",
+          "authorlink": "",
+          "description": "\n**Command Author** : ReisenFR\n**Tagged author** : ReisenFR",
+          "thumbnail": "https://cdn.discordapp.com/attachments/711898431395987577/864591941144281088/tumblr_067631a58ea7aa4b1312d3a558a4ad9f_603e1aa3_500.gif",
+          "image": "",
+          "footer": "H.A.D.E.S Corporation ",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "botmenu",
+      "perms": [],
+      "actions": [
+        {
+          "name": "bot action",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": "Terminal H.A.D.E.S",
+          "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/864591849167781928/kisspng-command-line-interface-computer-icons-cmd-exe-logo-amp-quot-command-and-conquer-amp-quo-5b6e.png",
+          "authorlink": "",
+          "description": "\n`+botst` Status Bot\n\n`+botac` Activity Bot",
+          "thumbnail": "https://cdn.discordapp.com/attachments/711898431395987577/864591216973054032/4370527eea6efbcd9a7977d93a76ac27.gif",
+          "image": "https://cdn.discordapp.com/attachments/711898431395987577/864594401032273930/335f6d0c74c29626008bae58feb98808.gif",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "botst",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Bot Status",
+          "category": "Bot Action",
+          "type": "Set Bot Status",
+          "presencestatus": "online"
+        }
+      ]
+    },
+    {
+      "name": "botac",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Bot Activity",
+          "category": "Bot Action",
+          "type": "Set Bot Activity",
+          "activityname": "H.A.D.E.S - version 666",
+          "activitytype": "LISTENING",
+          "streamurl": ""
+        }
+      ]
+    },
+    {
+      "name": "funmenu",
+      "perms": [],
+      "actions": [
+        {
+          "name": "action server",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": "Terminal H.A.D.E.S",
+          "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/864591849167781928/kisspng-command-line-interface-computer-icons-cmd-exe-logo-amp-quot-command-and-conquer-amp-quo-5b6e.png",
+          "authorlink": "",
+          "description": "`< >` = necessary & `[ ]` = optional\n\n\n**__Command Fun__**\n\n`+blitzo`\n\n`+dance`\n\n`+avatar` **<**@user**>**  - shows the user's Avatar\n\n",
+          "thumbnail": "https://cdn.discordapp.com/attachments/711898431395987577/864591216973054032/4370527eea6efbcd9a7977d93a76ac27.gif",
+          "image": "",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "blitzo",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Image",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "https://tenor.com/view/helluva-boss-gif-19944071",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "kick",
+      "perms": [
+        "𝙻𝚎𝚊𝚛𝚍𝚎𝚛",
+        "oⲱⲛⲉⲅ💐",
+        "c𝑜 o𝑤𝑛𝑒𝑟",
+        "ange-gardien",
+        "co-leader",
+        "technicien"
+      ],
+      "actions": [
+        {
+          "name": "Get user to Kick",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "kickuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "get reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "kickreason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "Kick them",
+          "category": "User Action",
+          "type": "Kick User",
+          "user": "${tempVars.kickuser.id}",
+          "reason": "${tempVars.kickreason}"
+        }
+      ]
+    },
+    {
+      "name": "ban",
+      "perms": [
+        "𝙻𝚎𝚊𝚛𝚍𝚎𝚛",
+        "oⲱⲛⲉⲅ💐",
+        "c𝑜 o𝑤𝑛𝑒𝑟",
+        "ange-gardien",
+        "co-leader",
+        "technicien"
+      ],
+      "actions": [
+        {
+          "name": "Get user to ban",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "banuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "ban reason",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "banreason",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "ban them",
+          "category": "User Action",
+          "type": "Ban User",
+          "user": "${tempVars.banuser.id}",
+          "reason": "${tempVars.banreason}",
+          "days": ""
+        }
+      ]
+    },
+    {
+      "name": "modhelp",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Moderation Server",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": "Terminal H.A.D.E.S",
+          "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/864591849167781928/kisspng-command-line-interface-computer-icons-cmd-exe-logo-amp-quot-command-and-conquer-amp-quo-5b6e.png",
+          "authorlink": "",
+          "description": "`< >` = necessary & `[ ]` = optional\n\n\n**__Kick__**\n`+kick` **<**@user**>** **[**reason**]**\n\n**__Ban__**\n`+ban` **<**@user**>** **[**reason**]**\n\n**__Purge__**\n`+purge` **<**number**>**",
+          "thumbnail": "https://cdn.discordapp.com/attachments/711898431395987577/864591941144281088/tumblr_067631a58ea7aa4b1312d3a558a4ad9f_603e1aa3_500.gif",
+          "image": "https://cdn.discordapp.com/attachments/711898431395987577/864594403187621928/tenor_4.gif",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "purge",
+      "perms": [],
+      "actions": [
+        {
+          "name": "get count",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "purge",
+          "vartype": "Number",
+          "savevartype": "temp",
+          "param": "1"
+        },
+        {
+          "name": "purge messages",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "${tempVars.purge}"
+        }
+      ]
+    },
+    {
+      "name": "verify",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Generate code",
+          "category": "Variable",
+          "type": "Generate Random Number",
+          "varname": "code",
+          "min": "1000",
+          "max": "3000",
+          "savevartype": "temp"
+        },
+        {
+          "name": "Message Code",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "Verification code:",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**${tempVars.code}**\nType it in less than 5 seconds to verify that you aren't a bot!",
+          "thumbnail": "",
+          "image": "",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "Wait for verify",
+          "category": "Bot Action",
+          "type": "Edited Wait",
+          "seconds": "5"
+        },
+        {
+          "name": "Check true",
+          "category": "Variable",
+          "type": "Check Variable Value",
+          "trueActions": [
+            {
+              "name": "add verification",
+              "category": "User Action",
+              "type": "Add Role to User",
+              "user": "${dbsVars.CommandAuthor.id}",
+              "rolename": "𝙼𝚎𝚖𝚋𝚛𝚎"
+            },
+            {
+              "name": "Message Code_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "05FF2B",
+              "title": "Verified!",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "You can now chat with other people",
+              "thumbnail": "",
+              "image": "",
+              "footer": "H.A.D.E.S Corporation",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Wait for verify_1_1",
+              "category": "Bot Action",
+              "type": "Edited Wait",
+              "seconds": "3"
+            },
+            {
+              "name": "delete messages_1",
+              "category": "Channel Action",
+              "type": "Delete All Messages",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "msgcount": "99"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "Message Code_1_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "FF0000",
+              "title": "Verification Failed!",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "Try again later!",
+              "thumbnail": "",
+              "image": "",
+              "footer": "H.A.D.E.S Corporation",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Wait for verify_1",
+              "category": "Bot Action",
+              "type": "Edited Wait",
+              "seconds": "3"
+            },
+            {
+              "name": "delete messages",
+              "category": "Channel Action",
+              "type": "Delete All Messages",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "msgcount": "99"
+            }
+          ],
+          "varname": "code",
+          "savevartype": "temp",
+          "compare": "equal to",
+          "value": "${dbsVars.CommandAuthor.lastMessage}"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "actions": [
+        {
+          "name": "Get user",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "varname": "GetUser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "set toO",
+          "category": "User Data",
+          "type": "Set User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "id",
+          "fieldvalue": "0"
+        },
+        {
+          "name": "addID",
+          "category": "User Data",
+          "type": "Edit User Data",
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "id",
+          "oper": "+",
+          "value": "${tempVars.GetUser.id}"
+        },
+        {
+          "name": "Check User",
+          "category": "User Data",
+          "type": "Check User Data",
+          "trueActions": [
+            {
+              "name": "SendImage_1_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "000000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "",
+              "thumbnail": "",
+              "image": "https://cdn.discordapp.com/attachments/711898431395987577/864590771068076032/scanningGif.gif",
+              "footer": "H.A.D.E.S Corporation",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Timer",
+              "category": "Bot Action",
+              "type": "Edited Wait",
+              "seconds": "5"
+            },
+            {
+              "name": "delete",
+              "category": "Channel Action",
+              "type": "Delete All Messages",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "msgcount": "1"
+            },
+            {
+              "name": "SendImage_1",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "000000",
+              "title": "",
+              "url": "",
+              "authorname": "Terminal H.A.D.E.S ",
+              "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/864591230485528596/dbsfgid-6af8edba-90a5-45b0-aac4-7df242cf735e.gif",
+              "authorlink": "",
+              "description": "Scan completed <@${dbsVars.CommandAuthor.id}>",
+              "thumbnail": "",
+              "image": "${dbsVars.CommandAuthor.user.avatarURL}",
+              "footer": "H.A.D.E.S Corporation",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "falseActions": [
+            {
+              "name": "SendImage_2",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "000000",
+              "title": "",
+              "url": "",
+              "authorname": "",
+              "authorimageurl": "",
+              "authorlink": "",
+              "description": "",
+              "thumbnail": "",
+              "image": "https://cdn.discordapp.com/attachments/711898431395987577/864590771068076032/scanningGif.gif",
+              "footer": "H.A.D.E.S Corporation",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            },
+            {
+              "name": "Timer_1",
+              "category": "Bot Action",
+              "type": "Edited Wait",
+              "seconds": "5"
+            },
+            {
+              "name": "delete_1",
+              "category": "Channel Action",
+              "type": "Delete All Messages",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "msgcount": "1"
+            },
+            {
+              "name": "SendImage",
+              "category": "Message",
+              "type": "Send Embed",
+              "channelname": "${dbsVars.CommandChannel.id}",
+              "color": "000000",
+              "title": "",
+              "url": "",
+              "authorname": "Terminal H.A.D.E.S ",
+              "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/864591230485528596/dbsfgid-6af8edba-90a5-45b0-aac4-7df242cf735e.gif",
+              "authorlink": "",
+              "description": "Scan completed <@${dbsVars.CommandAuthor.id}>",
+              "thumbnail": "",
+              "image": "${tempVars.GetUser.user.avatarURL}",
+              "footer": "H.A.D.E.S Corporation",
+              "timestamp": "BOOL_TRUE@@",
+              "savetovariable": "",
+              "savetovariabletype": "temp"
+            }
+          ],
+          "user": "${dbsVars.CommandAuthor.id}",
+          "field": "id",
+          "compare": "equal to",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "play",
+      "actions": [
+        {
+          "name": "1",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "Song",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "2",
+          "category": "Message",
+          "type": "if arguments are none",
+          "mes": "🎧**I need a song Name !**🎧"
+        },
+        {
+          "name": "3",
+          "category": "Bot Action",
+          "type": "Voice Manager",
+          "info": "isAuthorInVC",
+          "iftrue": "4",
+          "iffalse": "13",
+          "volume": ""
+        },
+        {
+          "name": "3_1",
+          "category": "Bot Action",
+          "type": "Voice Manager",
+          "info": "IsBotPlayingSong",
+          "iftrue": "15",
+          "iffalse": "4",
+          "volume": ""
+        },
+        {
+          "name": "4",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "Searching...",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "🎧| Searching... `${tempVars.Song}`",
+          "thumbnail": "",
+          "image": "",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "5",
+          "category": "Bot Action",
+          "type": "Get YouTube Video",
+          "searchquery": "${tempVars.Song}",
+          "vartype": "temp",
+          "storeresult": "Link"
+        },
+        {
+          "name": "6",
+          "category": "Bot Action",
+          "type": "Get YouTube Video Info",
+          "songurl": "${tempVars.Link}",
+          "fetchtype": "videoThumbnail",
+          "onerror": "",
+          "vartype": "temp",
+          "storeresult": "Thumbnail"
+        },
+        {
+          "name": "6_1",
+          "category": "Bot Action",
+          "type": "Get YouTube Video Info",
+          "songurl": "${tempVars.Link}",
+          "fetchtype": "videoLength",
+          "onerror": "",
+          "vartype": "temp",
+          "storeresult": "Length"
+        },
+        {
+          "name": "7",
+          "category": "Bot Action",
+          "type": "Play YouTube Video",
+          "songurl": "${tempVars.Link}",
+          "vartype": "temp",
+          "storeresult": "Title",
+          "onsuccess": "9",
+          "onfinish": "",
+          "onerror": "11"
+        },
+        {
+          "name": "8",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "Playing...",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "🎧| Now Playing : **${tempVars.Title}**\n📌| URL : **${tempVars.Link}**\n\n🕙| Duration : **${tempVars.Length} **seconds\n🗣| Requested by **<@${dbsVars.CommandAuthor.id}>**",
+          "thumbnail": "",
+          "image": "${tempVars.Thumbnail}",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "9",
+          "category": "Bot Action",
+          "type": "Stop Action"
+        },
+        {
+          "name": "10",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Unvalid Information !",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**❌| Please try again !**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "12",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "You are not in a voice Channel!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**🔇| Try again later!**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "13",
+          "category": "Bot Action",
+          "type": "Stop Action"
+        },
+        {
+          "name": "14",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "I'm already playing a song!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "**⛔️| Try again later!**",
+          "thumbnail": "",
+          "image": "",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "volume",
+      "actions": [
+        {
+          "name": "15",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "varname": "volume",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "16",
+          "category": "Bot Action",
+          "type": "Voice Manager",
+          "info": "voiceVolume",
+          "iftrue": "",
+          "iffalse": "",
+          "volume": "${tempVars.volume}"
+        }
+      ]
+    },
+    {
+      "name": "leave",
+      "actions": [
+        {
+          "name": "17",
+          "category": "Bot Action",
+          "type": "Voice Manager",
+          "info": "leaveVC",
+          "iftrue": "",
+          "iffalse": "",
+          "volume": ""
+        }
+      ]
+    },
+    {
+      "name": "stop",
+      "actions": [
+        {
+          "name": "18",
+          "category": "Bot Action",
+          "type": "Voice Manager",
+          "info": "stopPlaying",
+          "iftrue": "",
+          "iffalse": "",
+          "volume": ""
+        }
+      ]
+    },
+    {
+      "name": "music",
+      "actions": [
+        {
+          "name": "Music Panel",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": "Terminal H.A.D.E.S ",
+          "authorimageurl": "https://cdn.discordapp.com/attachments/711898431395987577/859063555420192778/kisspng-command-line-interface-computer-icons-cmd-exe-logo-amp-quot-command-and-conquer-amp-quo-5b6e.png",
+          "authorlink": "",
+          "description": "`< >` = necessary & `[ ]` = optional\n\n**__Music Commands__**\n\n`+play` **<** url or name **>**\n\n`+stop`\n\n`+leave`\n\n`+volume` **<** number **>**",
+          "thumbnail": "https://cdn.discordapp.com/attachments/711898431395987577/859057170766626826/4370527eea6efbcd9a7977d93a76ac27.gif",
+          "image": "https://cdn.discordapp.com/attachments/711898431395987577/859057034770251786/335f6d0c74c29626008bae58feb98808.gif",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "dance",
+      "actions": [
+        {
+          "name": "dance1",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "000000",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "https://cdn.discordapp.com/attachments/711898431395987577/859506295820517416/telechargement.gif",
+          "footer": "H.A.D.E.S Corporation",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    }
+  ]
+}
